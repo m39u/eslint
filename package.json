@@ -8,23 +8,23 @@
   "main": "index.js",
   "repository": "github:m39u/eslint",
   "type": "module",
-  "description": "An ESLint config for TypeScript.",
+  "description": "A strict ESLint config for TypeScript.",
   "keywords": [
     "eslint",
     "eslint-plugin"
   ],
   "scripts": {
-    "build": "bun build.ts",
-    "lint": "bun -b x prettier -c --config .prettierrc ."
+    "lint": "bun -b x prettier -c --config .prettierrc .",
+    "publish": "bun build.ts"
   },
   "dependencies": {
-    "@types/bun": "^1.3.13",
     "@typescript-eslint/eslint-plugin": "^8.59.0",
     "@typescript-eslint/parser": "^8.59.0",
     "eslint": "^10.2.1",
     "typescript": "^6.0.3"
   },
   "devDependencies": {
+    "@types/bun": "^1.3.13",
     "prettier": "^3.8.3"
   }
 }
