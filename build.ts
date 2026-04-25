@@ -17,8 +17,7 @@ await build({
 await $`cp LICENSE README.md dist`;
 await write("dist/package.json", `${JSON.stringify(pkg, null, 2)}\n`);
 
-if (env.NPM_TOKEN) {
+if (env.GITHUB_ACTIONS) {
   chdir("dist");
-  await write(".npmrc", "//registry.npmjs.org/:_authToken=${NPM_TOKEN}\n");
   await $`npm publish --access public`;
 }
