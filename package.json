@@ -14,10 +14,11 @@
     "eslint-plugin"
   ],
   "scripts": {
-    "build": "bun build -e '*' --minify --outdir dist --target bun src/index.ts",
+    "build": "bun build.ts",
     "lint": "bun -b x prettier -c --config .prettierrc ."
   },
   "dependencies": {
+    "@types/bun": "^1.3.13",
     "@typescript-eslint/eslint-plugin": "^8.59.0",
     "@typescript-eslint/parser": "^8.59.0",
     "eslint": "^10.2.1",
