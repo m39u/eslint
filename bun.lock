@@ -5,13 +5,14 @@
     "": {
       "name": "@m39u/eslint",
       "dependencies": {
-        "@types/bun": "^1.3.13",
         "@typescript-eslint/eslint-plugin": "^8.59.0",
         "@typescript-eslint/parser": "^8.59.0",
         "eslint": "^10.2.1",
         "typescript": "^6.0.3",
       },
       "devDependencies": {
+        "@m39u/eslint": "^0.1.0",
+        "@types/bun": "^1.3.13",
         "prettier": "^3.8.3",
       },
     },
@@ -40,6 +41,8 @@
     "@humanwhocodes/module-importer": ["@humanwhocodes/module-importer@1.0.1", "", {}, "sha512-bxveV4V8v5Yb4ncFTT3rPSgZBOpCkjfK0y4oVVVJwIuDVBRMDXrPyXRL988i5ap9m9bnyEEjWfm5WkBmtffLfA=="],
 
     "@humanwhocodes/retry": ["@humanwhocodes/retry@0.4.3", "", {}, "sha512-bV0Tgo9K4hfPCek+aMAn81RppFKv2ySDQeMoSZuvTASywNTnVJCArCZE2FWqpvIatKu7VMRLWlR1EazvVhDyhQ=="],
+
+    "@m39u/eslint": ["@m39u/eslint@0.1.0", "", { "dependencies": { "@typescript-eslint/eslint-plugin": "^8.59.0", "@typescript-eslint/parser": "^8.59.0", "eslint": "^10.2.1", "typescript": "^6.0.3" } }, "sha512-zenUlBzcvo38iPhcWCFdnfRcBJ/OtJaTgYTrvoKtEHEEmB0MfPj8yc5sgcYvalA/fnOni8JbB3Si97jb77os9A=="],
 
     "@types/bun": ["@types/bun@1.3.13", "", { "dependencies": { "bun-types": "1.3.13" } }, "sha512-9fqXWk5YIHGGnUau9TEi+qdlTYDAnOj+xLCmSTwXfAIqXr2x4tytJb43E9uCvt09zJURKXwAtkoH4nLQfzeTXw=="],
 

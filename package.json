@@ -14,7 +14,7 @@
     "eslint-plugin"
   ],
   "scripts": {
-    "lint": "bun -b x prettier -c --config .prettierrc .",
+    "lint": "bun -b x eslint . && bun -b x prettier -c --config .prettierrc .",
     "publish": "bun build.ts"
   },
   "dependencies": {
@@ -24,6 +24,7 @@
     "typescript": "^6.0.3"
   },
   "devDependencies": {
+    "@m39u/eslint": "^0.1.0",
     "@types/bun": "^1.3.13",
     "prettier": "^3.8.3"
   }
