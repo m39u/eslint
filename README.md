@@ -4,7 +4,7 @@ A strict ESLint config for TypeScript.
 
 ## Installation
 
-1. If you already have `eslint` or `typescript` in your or `package.json`,
+1. If you already have `eslint` or `typescript` in your `package.json`,
    remove them.\
    This package includes both of these as dependencies.
 2. Run `bun add -d @m39u/eslint`.
