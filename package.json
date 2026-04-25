@@ -1,0 +1,19 @@
+{
+  "name": "@m39u/eslint",
+  "version": "0.1.0",
+  "author": "m39u",
+  "bugs": "https://github.com/m39u/eslint/issues",
+  "homepage": "https://github.com/m39u/eslint",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": "github:m39u/eslint",
+  "type": "module",
+  "description": "An ESLint config for TypeScript.",
+  "keywords": [
+    "eslint",
+    "eslint-plugin"
+  ],
+  "scripts": {
+    "build": "bun build -e '*' --minify --outdir dist --target bun src/index.ts"
+  }
+}
