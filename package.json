@@ -17,6 +17,12 @@
     "build": "bun build -e '*' --minify --outdir dist --target bun src/index.ts",
     "lint": "bun -b x prettier -c --config .prettierrc ."
   },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^8.59.0",
+    "@typescript-eslint/parser": "^8.59.0",
+    "eslint": "^10.2.1",
+    "typescript": "^6.0.3"
+  },
   "devDependencies": {
     "prettier": "^3.8.3"
   }
