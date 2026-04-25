@@ -5,6 +5,10 @@ on:
     tags:
       - v*
 
+permissions:
+  contents: read
+  id-token: write
+
 jobs:
   publish:
     name: publish
@@ -23,7 +27,7 @@ jobs:
             node_modules
             ~/.bun/install/cache
 
-      - name: Setup Bun
+      - name: Set up Bun
         uses: oven-sh/setup-bun@v2
 
       - name: Install dependencies
