@@ -335,6 +335,7 @@ export default [
       "@typescript-eslint/prefer-return-this-type": 2,
       "@typescript-eslint/prefer-string-starts-ends-with": [
         2,
+        // eslint-disable-next-line id-length
         { allowSingleElementEquality: "always" },
       ],
       "@typescript-eslint/promise-function-async": 2,
