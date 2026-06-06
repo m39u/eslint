@@ -6,7 +6,10 @@
   "homepage": "https://github.com/m39u/eslint",
   "license": "MIT",
   "main": "index.js",
-  "repository": "github:m39u/eslint",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m39u/eslint.git"
+  },
   "type": "module",
   "description": "A strict ESLint config for TypeScript.",
   "keywords": [
@@ -14,7 +17,7 @@
     "eslint-plugin"
   ],
   "scripts": {
-    "lint": "bun -b x eslint . && bun -b x prettier -c --config .prettierrc .",
+    "lint": "bun -b x eslint . && bun -b x prettier -c .",
     "publish": "bun build.ts"
   },
   "dependencies": {

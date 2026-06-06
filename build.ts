@@ -19,5 +19,5 @@ await write("dist/package.json", `${JSON.stringify(pkg, null, 2)}\n`);
 
 if (env.GITHUB_ACTIONS) {
   chdir("dist");
-  await $`npm publish --access public`;
+  await $`npm publish --access=public --provenance`;
 }
