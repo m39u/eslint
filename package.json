@@ -1,6 +1,6 @@
 {
   "name": "@m39u/eslint",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": "m39u",
   "bugs": "https://github.com/m39u/eslint/issues",
   "homepage": "https://github.com/m39u/eslint",
@@ -18,14 +18,14 @@
     "publish": "bun build.ts"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^8.59.0",
-    "@typescript-eslint/parser": "^8.59.0",
-    "eslint": "^10.2.1",
+    "@typescript-eslint/eslint-plugin": "^8.60.1",
+    "@typescript-eslint/parser": "^8.60.1",
+    "eslint": "^10.4.1",
     "typescript": "^6.0.3"
   },
   "devDependencies": {
     "@m39u/eslint": "^0.1.0",
-    "@types/bun": "^1.3.13",
+    "@types/bun": "^1.3.14",
     "prettier": "^3.8.3"
   }
 }
