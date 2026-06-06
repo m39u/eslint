@@ -5,15 +5,14 @@ on:
     tags:
       - v*
 
-permissions:
-  contents: read
-  id-token: write
-
 jobs:
   publish:
     name: publish
     runs-on: ubuntu-24.04
     timeout-minutes: 3
+    permissions:
+      contents: read
+      id-token: write
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
@@ -32,7 +31,7 @@ jobs:
             node_modules
 
       - name: Install dependencies
-        run: bun i
+        run: bun i && npm install -g npm@latest
 
       - name: Publish to npm
         run: bun run publish
