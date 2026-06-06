@@ -9,7 +9,7 @@ delete pkg.scripts;
 
 await build({
   entrypoints: ["src/index.ts"],
-  external: ["*"],
+  external: ["@typescript-eslint"],
   minify: true,
   outdir: "dist",
   target: "bun",

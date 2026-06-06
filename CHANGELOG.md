@@ -1,7 +1,8 @@
 # Changelog
 
-## Unreleased
+## [0.2.0](https://github.com/m39u/eslint/releases/tag/v0.2.0) (2026-06-06)
 
+- add globals
 - update `@typescript-eslint/consistent-type-definitions` and
   `@typescript-eslint/no-misused-promises`
   ([#14](https://github.com/m39u/eslint/pull/14))
